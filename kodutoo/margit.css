@@ -1,0 +1,41 @@
+body {
+    background-color: #dacbdc;
+}
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(235, 65, 158, 0.441);
+    padding: 30px;
+    margin-top: 50px;
+}
+h2 {
+    color: #343a40;
+    border-bottom: 2px solid #610a57;
+    padding-bottom: 10px;
+}
+.contact-info {
+    margin-top: 30px;
+}
+.contact-info p {
+    margin-bottom: 20px;
+}
+.map-container {
+    margin-top: 30px;
+}
+iframe { /* kaart */
+    width: 100%;
+    height: 400px; 
+    border: none;
+    border-radius: 10px;
+}
+.big-header {
+      text-align: center;
+      font-size: 4em;
+      font-family: 'Snell Roundhand', cursive;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      color: #361d32; 
+      padding: 20px; 
+      border-radius: 10px; 
+      text-shadow: 3px 10px /* vari alla */ 4px rgba(0, 0, 0, 0.3);
+  }

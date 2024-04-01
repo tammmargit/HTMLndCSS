@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel='stylesheet' type='text/css' href='margit.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="big-header">
+        Margiti leht
+      </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <i class="fas fa-briefcase"></i>Margiti ettevõte</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Avaleht</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="blogi.html">Blogi</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="tooted.html">Tooted</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="kontakt.html">Kontakt</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="ml-auto">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Logi sisse</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Logi sisse</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="login-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nimi või e-post">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" placeholder="Salasõna">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Logi sisse</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2>Kontakt</h2>
+        <div class="contact-info">
+            <p><strong>E-post:</strong> info@margitiettevote.ee</p>
+            <p><strong>Telefon:</strong> +372 1234 5678</p>
+        </div>
+        
+        <!-- kaart -->
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202629.23442195908!2d24.585445197753904!3d59.43708170703712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469294eb51833e33%3A0x34a06a6f56f182f7!2sTallinn%2C%20Estonia!5e0!3m2!1sen!2suk!4v1648908335710!5m2!1sen!2suk" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+</body>
+</html>

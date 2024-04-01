@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel='stylesheet' type='text/css' href='margit.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="big-header">
+        Margiti leht
+      </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <i class="fas fa-briefcase"></i>Margiti ettevõte</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Avaleht</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="blogi.html">Blogi</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="tooted.html">Tooted</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="kontakt.html">Kontakt</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="ml-auto">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Logi sisse</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Logi sisse</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="login-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nimi või e-post">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" placeholder="Salasõna">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Logi sisse</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="container mt-5">
+    <h2>Meie tooted</h2>
+    <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://assets.adidas.com/images/w_1880,f_auto,q_auto/34181d19c60d466980a3af4700dda4d0_9366/HR1339_01_standard.jpg" class="card-img-top" alt="Toote pilt">
+                <div class="card-body">
+                    <h5 class="card-title">Matka jalanõud</h5>
+                    <p class="card-text">Hind: 69.99€</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://decathlon.ae/cdn/shop/products/2fd3cfa9839c859b7ce615ba1609920c_baf96d87-b2ea-454d-84dc-b7be4c3348a6_675x.progressive.jpg?v=1654935135" class="card-img-top" alt="Toote pilt">
+                <div class="card-body">
+                    <h5 class="card-title">Matka jope</h5>
+                    <p class="card-text">Hind: 79.99€</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://decathlon.ae/cdn/shop/products/5d79974ecc6707b8ad0352a6cf9e5600_675x.progressive.jpg?v=1691123307" class="card-img-top" alt="Toote pilt">
+                <div class="card-body">
+                    <h5 class="card-title">Matka püksid</h5>
+                    <p class="card-text">Hind: 89.99€</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
